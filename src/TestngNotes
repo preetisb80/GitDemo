@@ -1,0 +1,19 @@
+Testng ---Java Unit testing framework
+It can generate very good html reports
+it gives lot of annotations
+You can set sequence/priority of test cases
+You can execute test cases multiple times with different data
+Purpose -- design test cases in a systematic way
+
+testng is open source--free
+testng is available in form of jar files
+
+install testng in eclipse:
+
+http://beust.com/eclipse
+
+go to eclipse-->help-->new software-->copy/paste this url "http://beust.com/eclipse"
+or
+go to eclipse-->help-->new software-->copy/paste-->http://dl.bintray.com/testng-team/testng-eclipse-release/
+
+https://www.lambdatest.com/blog/how-to-install-testng-in-eclipse-step-by-step-guide/

@@ -1,49 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24169" started-at="2021-02-20T14:06:52 PST" finished-at="2021-02-20T14:07:16 PST">
+  <suite name="Yahoo App Test Automation Suite" duration-ms="8524" started-at="2021-01-25T14:13:50 PST" finished-at="2021-01-25T14:13:58 PST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24169" started-at="2021-02-20T14:06:52 PST" finished-at="2021-02-20T14:07:16 PST">
-      <class name="com.crm.qa.testdata.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testdata.LoginPageTest@1f57539]" name="setUp" is-config="true" duration-ms="7024" started-at="2021-02-20T14:06:52 PST" finished-at="2021-02-20T14:06:59 PST">
+    <test name="Yahoo App Test" duration-ms="8524" started-at="2021-01-25T14:13:50 PST" finished-at="2021-01-25T14:13:58 PST">
+      <class name="com.parameters.ParameterTest">
+        <test-method status="PASS" signature="yahooLoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.parameters.ParameterTest@2698dc7]" name="yahooLoginTest" duration-ms="8484" started-at="2021-01-25T14:13:50 PST" finished-at="2021-01-25T14:13:58 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://login.yahoo.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[preeti1_sharma@yahoo.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testdata.LoginPageTest@1f57539]" name="loginPageTitleTest" duration-ms="60" started-at="2021-02-20T14:06:59 PST" finished-at="2021-02-20T14:06:59 PST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testdata.LoginPageTest@1f57539]" name="tearDown" is-config="true" duration-ms="722" started-at="2021-02-20T14:06:59 PST" finished-at="2021-02-20T14:06:59 PST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testdata.LoginPageTest@1f57539]" name="setUp" is-config="true" duration-ms="6263" started-at="2021-02-20T14:06:59 PST" finished-at="2021-02-20T14:07:06 PST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="crmLogoImageTest()[pri:2, instance:com.crm.qa.testdata.LoginPageTest@1f57539]" name="crmLogoImageTest" duration-ms="132" started-at="2021-02-20T14:07:06 PST" finished-at="2021-02-20T14:07:06 PST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- crmLogoImageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testdata.LoginPageTest@1f57539]" name="tearDown" is-config="true" duration-ms="681" started-at="2021-02-20T14:07:06 PST" finished-at="2021-02-20T14:07:06 PST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testdata.LoginPageTest@1f57539]" name="setUp" is-config="true" duration-ms="6412" started-at="2021-02-20T14:07:06 PST" finished-at="2021-02-20T14:07:13 PST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.crm.qa.testdata.LoginPageTest@1f57539]" name="loginTest" duration-ms="2115" started-at="2021-02-20T14:07:13 PST" finished-at="2021-02-20T14:07:15 PST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testdata.LoginPageTest@1f57539]" name="tearDown" is-config="true" duration-ms="717" started-at="2021-02-20T14:07:15 PST" finished-at="2021-02-20T14:07:16 PST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.qa.testdata.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- yahooLoginTest -->
+      </class> <!-- com.parameters.ParameterTest -->
+    </test> <!-- Yahoo App Test -->
+  </suite> <!-- Yahoo App Test Automation Suite -->
 </testng-results>
